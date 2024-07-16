@@ -2,7 +2,7 @@
   "name": "aluraflix",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Daann26.github.io/alura-flix",
+  "homepage": "https://Daann26.github.io/aluraflixapp.git/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
