@@ -1,0 +1,15 @@
+.pie {
+  background-color: var(--black);
+
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid var(--blue, #2271d1);
+  box-shadow: inset 0 0 8px 0 #2271d1b2;
+}
+
+.pie img {
+  width: 168px;
+  height: 40px;
+}

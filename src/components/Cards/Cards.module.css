@@ -1,0 +1,58 @@
+.card {
+  border: none;
+  background-color: var(--black);
+  padding: 4px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 385px;
+  height: auto;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.imgVideo {
+  width: 385px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+}
+
+.btnEliminar,
+.btnEditar {
+  background-color: transparent;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.btnEliminar img,
+.btnEditar img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.tituloBtn {
+  margin: 0;
+  padding: 0;
+}
